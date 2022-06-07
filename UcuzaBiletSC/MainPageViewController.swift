@@ -2,7 +2,7 @@
 //  MainPageViewController.swift
 //  UcuzaBiletSC
 //
-//  Created by Berkan Gezgin on 7.06.2022.
+//  Created by Berkan Gezgin on 8.06.2022.
 //
 
 import UIKit
