@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class MainPageViewController: UIViewController {
 
@@ -15,7 +16,16 @@ class MainPageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func cikisButton(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            performSegue(withIdentifier: "logout", sender: nil)
+        } catch {
+            print("Error!")
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
