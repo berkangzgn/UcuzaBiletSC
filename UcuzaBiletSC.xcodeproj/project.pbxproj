@@ -67,13 +67,10 @@
 		04AF9E3E284FCDBA00DFAA1B /* UcuzaBiletSC */ = {
 			isa = PBXGroup;
 			children = (
-				04AF9E67285220B500DFAA1B /* New Group */,
-				04AF9E3F284FCDBA00DFAA1B /* AppDelegate.swift */,
-				04AF9E41284FCDBA00DFAA1B /* SceneDelegate.swift */,
-				04AF9E43284FCDBA00DFAA1B /* ViewController.swift */,
-				04AF9E582850088D00DFAA1B /* MainPageViewController.swift */,
-				04AF9E45284FCDBA00DFAA1B /* Main.storyboard */,
-				04AF9E4A284FCDBC00DFAA1B /* LaunchScreen.storyboard */,
+				04AF9E772852328500DFAA1B /* App */,
+				04AF9E752852327500DFAA1B /* Controller */,
+				04AF9E742852326700DFAA1B /* View */,
+				04AF9E732852326100DFAA1B /* Model */,
 				04AF9E48284FCDBC00DFAA1B /* Assets.xcassets */,
 				04AF9E55284FD8F300DFAA1B /* GoogleService-Info.plist */,
 				04AF9E4D284FCDBC00DFAA1B /* Info.plist */,
@@ -81,11 +78,38 @@
 			path = UcuzaBiletSC;
 			sourceTree = "<group>";
 		};
-		04AF9E67285220B500DFAA1B /* New Group */ = {
+		04AF9E732852326100DFAA1B /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04AF9E742852326700DFAA1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AF9E4A284FCDBC00DFAA1B /* LaunchScreen.storyboard */,
+				04AF9E45284FCDBA00DFAA1B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04AF9E752852327500DFAA1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04AF9E582850088D00DFAA1B /* MainPageViewController.swift */,
+				04AF9E43284FCDBA00DFAA1B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04AF9E772852328500DFAA1B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04AF9E3F284FCDBA00DFAA1B /* AppDelegate.swift */,
+				04AF9E41284FCDBA00DFAA1B /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		3CEE4300AB79C183ADAAC00A /* Pods */ = {
