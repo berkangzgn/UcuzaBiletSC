@@ -254,7 +254,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Çıkış Yap"/>
                                 <connections>
-                                    <action selector="cikisButton:" destination="vHh-sn-kWA" eventType="touchUpInside" id="LUR-RV-Z5M"/>
+                                    <action selector="cikisButton:" destination="vHh-sn-kWA" eventType="touchUpInside" id="g3y-jN-CF3"/>
                                 </connections>
                             </button>
                         </subviews>

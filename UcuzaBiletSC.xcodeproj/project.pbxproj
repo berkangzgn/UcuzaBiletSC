@@ -67,6 +67,7 @@
 		04AF9E3E284FCDBA00DFAA1B /* UcuzaBiletSC */ = {
 			isa = PBXGroup;
 			children = (
+				04AF9E67285220B500DFAA1B /* New Group */,
 				04AF9E3F284FCDBA00DFAA1B /* AppDelegate.swift */,
 				04AF9E41284FCDBA00DFAA1B /* SceneDelegate.swift */,
 				04AF9E43284FCDBA00DFAA1B /* ViewController.swift */,
@@ -78,6 +79,13 @@
 				04AF9E4D284FCDBC00DFAA1B /* Info.plist */,
 			);
 			path = UcuzaBiletSC;
+			sourceTree = "<group>";
+		};
+		04AF9E67285220B500DFAA1B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		3CEE4300AB79C183ADAAC00A /* Pods */ = {
