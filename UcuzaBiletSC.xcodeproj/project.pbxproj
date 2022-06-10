@@ -17,6 +17,7 @@
 		04AF9E592850088D00DFAA1B /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E582850088D00DFAA1B /* MainPageViewController.swift */; };
 		04AF9E84285363B700DFAA1B /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E83285363B700DFAA1B /* StoreItem.swift */; };
 		04AF9E88285364BE00DFAA1B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E87285364BE00DFAA1B /* Extension.swift */; };
+		04AF9E8A2853662B00DFAA1B /* StoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E892853662B00DFAA1B /* StoreItemController.swift */; };
 		6E2AB72C89C253B8F015EE66 /* Pods_UcuzaBiletSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E332669EE8E75391193F65 /* Pods_UcuzaBiletSC.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		04AF9E582850088D00DFAA1B /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		04AF9E83285363B700DFAA1B /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoreItem.swift; path = UcuzaBiletSC/Model/StoreItem.swift; sourceTree = SOURCE_ROOT; };
 		04AF9E87285364BE00DFAA1B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		04AF9E892853662B00DFAA1B /* StoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemController.swift; sourceTree = "<group>"; };
 		38911F1ECFCE1BB1639D61E0 /* Pods-UcuzaBiletSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UcuzaBiletSC.release.xcconfig"; path = "Target Support Files/Pods-UcuzaBiletSC/Pods-UcuzaBiletSC.release.xcconfig"; sourceTree = "<group>"; };
 		D6E332669EE8E75391193F65 /* Pods_UcuzaBiletSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UcuzaBiletSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0959D427A3C2FBB2A8BB2E /* Pods-UcuzaBiletSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UcuzaBiletSC.debug.xcconfig"; path = "Target Support Files/Pods-UcuzaBiletSC/Pods-UcuzaBiletSC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				04AF9E582850088D00DFAA1B /* MainPageViewController.swift */,
 				04AF9E43284FCDBA00DFAA1B /* ViewController.swift */,
+				04AF9E892853662B00DFAA1B /* StoreItemController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				04AF9E592850088D00DFAA1B /* MainPageViewController.swift in Sources */,
 				04AF9E84285363B700DFAA1B /* StoreItem.swift in Sources */,
 				04AF9E44284FCDBA00DFAA1B /* ViewController.swift in Sources */,
+				04AF9E8A2853662B00DFAA1B /* StoreItemController.swift in Sources */,
 				04AF9E88285364BE00DFAA1B /* Extension.swift in Sources */,
 				04AF9E40284FCDBA00DFAA1B /* AppDelegate.swift in Sources */,
 				04AF9E42284FCDBA00DFAA1B /* SceneDelegate.swift in Sources */,
