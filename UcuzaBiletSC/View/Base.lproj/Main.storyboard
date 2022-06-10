@@ -238,13 +238,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="LFp-7e-bvh">
-                                <rect key="frame" x="47" y="44" width="90" height="106"/>
+                                <rect key="frame" x="47" y="44" width="84" height="62"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="UN4-DE-2rw"/>
+                                    <constraint firstAttribute="width" constant="84" id="fFB-Zu-IfG"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe0-zd-V2q">
-                                <rect key="frame" x="284" y="54" width="83" height="86"/>
+                                <rect key="frame" x="258" y="54" width="108" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="gq8-0K-AUo"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="108" id="nRM-Ei-RHI"/>
+                                </constraints>
                                 <color key="tintColor" red="0.87394799830000003" green="0.67511796810000002" blue="0.2156775695" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Çıkış Yap"/>
@@ -252,9 +256,8 @@
                                     <action selector="cikisButton:" destination="vHh-sn-kWA" eventType="touchUpInside" id="g3y-jN-CF3"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Urw-d8-Rb6">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Urw-d8-Rb6">
                                 <rect key="frame" x="20" y="148" width="374" height="714"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="AQ7-Eh-e0l">
                                     <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
@@ -276,12 +279,16 @@
                         <viewLayoutGuide key="safeArea" id="TAc-xT-T86"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="LFp-7e-bvh" firstAttribute="top" secondItem="TAc-xT-T86" secondAttribute="top" id="Eb9-RR-fjI"/>
-                            <constraint firstItem="Oe0-zd-V2q" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LFp-7e-bvh" secondAttribute="trailing" constant="8" symbolic="YES" id="VYm-of-xHF"/>
-                            <constraint firstItem="TAc-xT-T86" firstAttribute="trailing" secondItem="Oe0-zd-V2q" secondAttribute="trailing" constant="47" id="fOb-JJ-AsA"/>
-                            <constraint firstItem="LFp-7e-bvh" firstAttribute="centerY" secondItem="Oe0-zd-V2q" secondAttribute="centerY" id="g8j-KH-98W"/>
-                            <constraint firstItem="Oe0-zd-V2q" firstAttribute="top" secondItem="TAc-xT-T86" secondAttribute="top" constant="10" id="nir-P4-ope"/>
-                            <constraint firstItem="LFp-7e-bvh" firstAttribute="leading" secondItem="TAc-xT-T86" secondAttribute="leading" constant="47" id="wlt-c5-U5h"/>
+                            <constraint firstItem="Urw-d8-Rb6" firstAttribute="top" secondItem="LFp-7e-bvh" secondAttribute="bottom" constant="42" id="0Ja-Is-rgb"/>
+                            <constraint firstItem="LFp-7e-bvh" firstAttribute="top" secondItem="TAc-xT-T86" secondAttribute="top" id="3K5-KV-9dL"/>
+                            <constraint firstItem="Oe0-zd-V2q" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LFp-7e-bvh" secondAttribute="trailing" constant="8" symbolic="YES" id="Aii-2q-OPs"/>
+                            <constraint firstItem="LFp-7e-bvh" firstAttribute="bottom" secondItem="Oe0-zd-V2q" secondAttribute="bottom" id="C8A-Ri-9zc"/>
+                            <constraint firstItem="Urw-d8-Rb6" firstAttribute="leading" secondItem="u19-Eh-wUX" secondAttribute="leadingMargin" id="IjE-vr-4OF"/>
+                            <constraint firstItem="Urw-d8-Rb6" firstAttribute="bottom" secondItem="TAc-xT-T86" secondAttribute="bottom" id="et6-nl-52H"/>
+                            <constraint firstItem="Oe0-zd-V2q" firstAttribute="top" secondItem="TAc-xT-T86" secondAttribute="top" constant="10" id="f0T-ZI-R8e"/>
+                            <constraint firstItem="Urw-d8-Rb6" firstAttribute="trailing" secondItem="u19-Eh-wUX" secondAttribute="trailingMargin" id="fom-Ra-ZBS"/>
+                            <constraint firstItem="LFp-7e-bvh" firstAttribute="leading" secondItem="TAc-xT-T86" secondAttribute="leading" constant="47" id="v0s-KF-EtM"/>
+                            <constraint firstItem="TAc-xT-T86" firstAttribute="trailing" secondItem="Oe0-zd-V2q" secondAttribute="trailing" constant="48" id="wCD-Ci-Zdp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PRy-UP-odk"/>
