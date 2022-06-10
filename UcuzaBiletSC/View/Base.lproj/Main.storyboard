@@ -257,7 +257,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Urw-d8-Rb6">
-                                <rect key="frame" x="20" y="148" width="374" height="714"/>
+                                <rect key="frame" x="20" y="152" width="374" height="710"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="AQ7-Eh-e0l">
                                     <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
@@ -275,15 +275,27 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ksn-50-LAa">
+                                <rect key="frame" x="92" y="113" width="230" height="32"/>
+                                <segments>
+                                    <segment title="Movie"/>
+                                    <segment title="Music"/>
+                                    <segment title="Apps"/>
+                                    <segment title="Books"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TAc-xT-T86"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Urw-d8-Rb6" firstAttribute="top" secondItem="LFp-7e-bvh" secondAttribute="bottom" constant="42" id="0Ja-Is-rgb"/>
+                            <constraint firstItem="Urw-d8-Rb6" firstAttribute="top" secondItem="LFp-7e-bvh" secondAttribute="bottom" constant="46" id="0Ja-Is-rgb"/>
+                            <constraint firstItem="Urw-d8-Rb6" firstAttribute="top" secondItem="Ksn-50-LAa" secondAttribute="bottom" constant="8" symbolic="YES" id="0PN-c5-aam"/>
                             <constraint firstItem="LFp-7e-bvh" firstAttribute="top" secondItem="TAc-xT-T86" secondAttribute="top" id="3K5-KV-9dL"/>
                             <constraint firstItem="Oe0-zd-V2q" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LFp-7e-bvh" secondAttribute="trailing" constant="8" symbolic="YES" id="Aii-2q-OPs"/>
                             <constraint firstItem="LFp-7e-bvh" firstAttribute="bottom" secondItem="Oe0-zd-V2q" secondAttribute="bottom" id="C8A-Ri-9zc"/>
+                            <constraint firstItem="Ksn-50-LAa" firstAttribute="centerX" secondItem="Urw-d8-Rb6" secondAttribute="centerX" id="FZF-X5-kFz"/>
                             <constraint firstItem="Urw-d8-Rb6" firstAttribute="leading" secondItem="u19-Eh-wUX" secondAttribute="leadingMargin" id="IjE-vr-4OF"/>
+                            <constraint firstItem="Ksn-50-LAa" firstAttribute="leading" secondItem="TAc-xT-T86" secondAttribute="leading" constant="92" id="Zj4-wF-Obd"/>
                             <constraint firstItem="Urw-d8-Rb6" firstAttribute="bottom" secondItem="TAc-xT-T86" secondAttribute="bottom" id="et6-nl-52H"/>
                             <constraint firstItem="Oe0-zd-V2q" firstAttribute="top" secondItem="TAc-xT-T86" secondAttribute="top" constant="10" id="f0T-ZI-R8e"/>
                             <constraint firstItem="Urw-d8-Rb6" firstAttribute="trailing" secondItem="u19-Eh-wUX" secondAttribute="trailingMargin" id="fom-Ra-ZBS"/>
