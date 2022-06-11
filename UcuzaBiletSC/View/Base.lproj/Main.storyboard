@@ -283,6 +283,9 @@
                                     <segment title="Apps"/>
                                     <segment title="Books"/>
                                 </segments>
+                                <connections>
+                                    <action selector="filterOptionUpdated:" destination="vHh-sn-kWA" eventType="valueChanged" id="rXS-h7-tkq"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TAc-xT-T86"/>
@@ -305,6 +308,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="PRy-UP-odk"/>
                     <connections>
+                        <outlet property="filterSegmentedControl" destination="Ksn-50-LAa" id="uNw-n8-RTA"/>
                         <outlet property="searchBar" destination="AQ7-Eh-e0l" id="0h0-TT-Aca"/>
                         <outlet property="tableView" destination="Urw-d8-Rb6" id="Lct-8E-scM"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="logout" modalPresentationStyle="fullScreen" id="LXh-3X-y4t"/>
