@@ -4,7 +4,7 @@ This project is a study case study that I developed for a company.
 <br/><br/>
 
 ### Tech Stack
-+ SwiftUI syntax
++ Swift syntax
 + Architecture
   - MVC Architecture (Model - View - Controller)
 + Packages
