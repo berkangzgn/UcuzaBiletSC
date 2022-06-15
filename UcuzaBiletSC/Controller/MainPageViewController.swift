@@ -14,7 +14,7 @@ class MainPageViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var filterSegmentedControl: UISegmentedControl!
     
-    var storeItemController = StoreItemController()
+    var storeItemAPI = API()
     var items = [StoreItem?]()
     let queryOptions = ["movie", "music", "software", "ebook"]
     
@@ -48,7 +48,7 @@ class MainPageViewController: UIViewController {
                 "lang": "en_us"
             ]
             
-            storeItemController.fetchItems(matching: query) { (storeItems) in
+            storeItemAPI.fetchItems(matching: query) { (storeItems) in
                 if let storeItems = storeItems {
                     self.items = storeItems
                     self.tableView.reloadData()

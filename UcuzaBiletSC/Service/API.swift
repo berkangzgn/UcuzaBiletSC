@@ -1,14 +1,13 @@
 //
-//  StoreItemController.swift
+//  API.swift
 //  UcuzaBiletSC
 //
-//  Created by Berkan Gezgin on 10.06.2022.
+//  Created by Berkan Gezgin on 15.06.2022.
 //
 
 import Foundation
 
-class StoreItemController {
-    
+class API {
     func fetchItems(matching query: [String: String], completion: @escaping ([StoreItem]?) -> Void) {
         let baseURL = URL(string: "https://itunes.apple.com/search?")!
         
