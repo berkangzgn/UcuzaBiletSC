@@ -8,7 +8,7 @@
 import UIKit
 import Firebase
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     @IBOutlet weak var emailTextLabel: UITextField!
     @IBOutlet weak var sifreTextLabel: UITextField!

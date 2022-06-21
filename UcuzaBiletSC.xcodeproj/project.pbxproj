@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		044E67DA2859D8950070FC48 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E67D92859D8950070FC48 /* API.swift */; };
+		044E67DD2859DD690070FC48 /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E67DC2859DD690070FC48 /* StoreViewModel.swift */; };
 		04AF9E40284FCDBA00DFAA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E3F284FCDBA00DFAA1B /* AppDelegate.swift */; };
 		04AF9E42284FCDBA00DFAA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E41284FCDBA00DFAA1B /* SceneDelegate.swift */; };
-		04AF9E44284FCDBA00DFAA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E43284FCDBA00DFAA1B /* ViewController.swift */; };
+		04AF9E44284FCDBA00DFAA1B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9E43284FCDBA00DFAA1B /* LoginViewController.swift */; };
 		04AF9E47284FCDBA00DFAA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF9E45284FCDBA00DFAA1B /* Main.storyboard */; };
 		04AF9E49284FCDBC00DFAA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AF9E48284FCDBC00DFAA1B /* Assets.xcassets */; };
 		04AF9E4C284FCDBC00DFAA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF9E4A284FCDBC00DFAA1B /* LaunchScreen.storyboard */; };
@@ -23,10 +24,11 @@
 
 /* Begin PBXFileReference section */
 		044E67D92859D8950070FC48 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		044E67DC2859DD690070FC48 /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
 		04AF9E3C284FCDBA00DFAA1B /* UcuzaBiletSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UcuzaBiletSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AF9E3F284FCDBA00DFAA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AF9E41284FCDBA00DFAA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04AF9E43284FCDBA00DFAA1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04AF9E43284FCDBA00DFAA1B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		04AF9E46284FCDBA00DFAA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AF9E48284FCDBC00DFAA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AF9E4B284FCDBC00DFAA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		044E67D82859D7F50070FC48 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				044E67DC2859DD690070FC48 /* StoreViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -115,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				04AF9E582850088D00DFAA1B /* MainPageViewController.swift */,
-				04AF9E43284FCDBA00DFAA1B /* ViewController.swift */,
+				04AF9E43284FCDBA00DFAA1B /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,9 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044E67DD2859DD690070FC48 /* StoreViewModel.swift in Sources */,
 				04AF9E592850088D00DFAA1B /* MainPageViewController.swift in Sources */,
 				04AF9E84285363B700DFAA1B /* StoreItem.swift in Sources */,
-				04AF9E44284FCDBA00DFAA1B /* ViewController.swift in Sources */,
+				04AF9E44284FCDBA00DFAA1B /* LoginViewController.swift in Sources */,
 				04AF9E88285364BE00DFAA1B /* Extension.swift in Sources */,
 				04AF9E40284FCDBA00DFAA1B /* AppDelegate.swift in Sources */,
 				044E67DA2859D8950070FC48 /* API.swift in Sources */,
